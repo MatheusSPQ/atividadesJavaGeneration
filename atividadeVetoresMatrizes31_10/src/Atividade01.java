@@ -1,28 +1,28 @@
 import java.util.Scanner;
 
 public class Atividade01 {
-    public void posicao(){
+    public void position(){
         Scanner read = new Scanner(System.in);
-        int[] vetor = new int[10];
-        for(int i = 0; i < vetor.length; i++){
+        int[] vector = new int[10];
+        for(int i = 0; i < vector.length; i++){
             System.out.print("Digite um valor para por no vetor: ");
-            vetor[i] = read.nextInt();
+            vector[i] = read.nextInt();
         }
         System.out.println("Digite o número que você deseja encrontrar: ");
-        int numeroDesejado = read.nextInt();
-        int indice = 0;
-        boolean numeroEncontrado = false;
-        for(int i = 0; i < vetor.length; i++){
-            if(vetor[i] == numeroDesejado){
-                numeroEncontrado = true;
-                indice = i;
+        int diseredNumber = read.nextInt();
+        int index = 0;
+        boolean foundNumber = false;
+        for(int i = 0; i < vector.length; i++){
+            if(vector[i] == diseredNumber){
+                foundNumber = true;
+                index = i;
                 break;
             }
         }
-        if(numeroEncontrado){
-            System.out.printf("O número %d está localizado na posição: %d",numeroDesejado,indice);
+        if(foundNumber){
+            System.out.printf("O número %d está localizado na posição: %d", diseredNumber, index);
         }else{
-            System.out.printf("O número %d não foi encontrado!",numeroDesejado);
+            System.out.printf("O número %d não foi encontrado!", diseredNumber);
         }
 
     }

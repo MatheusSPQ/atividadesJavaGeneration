@@ -5,6 +5,6 @@ public class Main {
         Atividade01 atividade01 = new Atividade01();
         //atividade01.posicao();
         Atividade02 atividade02 = new Atividade02();
-        atividade02.vetor();
+        atividade02.vector();
     }
 }
