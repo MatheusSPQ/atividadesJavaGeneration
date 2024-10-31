@@ -16,7 +16,7 @@ public class Atividade02 {
             }
 
         }
-        int[] pares = Arrays.stream(vetor).filter(e -> e % 2 == 0).toArray();
+        int[] pares = Arrays.stream(vetor).filter(e -> e % 2 == 0).toArray(); // para cada elemento e do vetor que for par, ou seja divisivel por 2m retorna o elemento e.
         int soma = Arrays.stream(vetor).sum();
         float media = (float) soma /10;
         System.out.println("Elementos nos índices ímpares");
