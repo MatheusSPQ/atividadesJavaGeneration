@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/atividadeVetoresMatrizes31_10/atividadeVetoresMatrizes31_10.iml" filepath="$PROJECT_DIR$/atividadeVetoresMatrizes31_10/atividadeVetoresMatrizes31_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atividadesCondicionais29_10/atividadesCondicionais29_10.iml" filepath="$PROJECT_DIR$/atividadesCondicionais29_10/atividadesCondicionais29_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atividadesLoops30_10/atividadesLoops30_10.iml" filepath="$PROJECT_DIR$/atividadesLoops30_10/atividadesLoops30_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/atividadesVariaveisOperadores28_10/atividadesVariaveisOperadores28_10.iml" filepath="$PROJECT_DIR$/atividadesVariaveisOperadores28_10/atividadesVariaveisOperadores28_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/generation.iml" filepath="$PROJECT_DIR$/.idea/generation.iml" />
+    </modules>
+  </component>
+</project>
