@@ -19,8 +19,8 @@ public class Atividade01 {
             switch(option){
                 case 1:
                     System.out.println("Digite o nome do cliente: ");
-                    String nomeCliente = read.nextLine();
-                    queue.add(nomeCliente);
+                    String clientName = read.nextLine();
+                    queue.add(clientName);
                     System.out.println("Fila:");
                     System.out.println(queue);
                     System.out.println("Cliente Adicionado!");

@@ -18,8 +18,8 @@ public class Atividade02 {
             switch(option){
                 case 1:
                     System.out.println("Digite o nome do livro: ");
-                    String nomeLivro = read.nextLine();
-                    books.push(nomeLivro);
+                    String bookName = read.nextLine();
+                    books.push(bookName);
                     System.out.println("Pilha:");
                     System.out.println(books);
                     System.out.println("Livro Adicionado!");
