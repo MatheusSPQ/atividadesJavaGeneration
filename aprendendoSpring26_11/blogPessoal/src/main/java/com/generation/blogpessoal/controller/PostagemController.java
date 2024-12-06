@@ -2,6 +2,7 @@ package com.generation.blogpessoal.controller;
 
 import com.generation.blogpessoal.model.Postagem;
 import com.generation.blogpessoal.repository.PostagemRepository;
+import com.generation.blogpessoal.repository.TemaRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,6 +20,8 @@ public class PostagemController {
 
     @Autowired
     private PostagemRepository postagemRepository;
+    @Autowired
+    private TemaRepository temaRepository;
 
     @GetMapping
     public ResponseEntity<List<Postagem>> getAll(){
@@ -41,8 +44,7 @@ public class PostagemController {
 
     @PostMapping
     public ResponseEntity<Postagem> post(@Valid @RequestBody Postagem postagem){
-        return ResponseEntity.status(HttpStatus.CREATED)
-                .body(postagemRepository.save(postagem));
+        return ResponseEntity.status(HttpStatus.CREATED).body(postagemRepository.save(postagem));
     }
 
     @PutMapping

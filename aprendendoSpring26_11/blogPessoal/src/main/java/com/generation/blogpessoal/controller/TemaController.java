@@ -31,7 +31,7 @@ public class TemaController {
         return temaRepository.findById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
-        
+
     }
 
     @PostMapping
