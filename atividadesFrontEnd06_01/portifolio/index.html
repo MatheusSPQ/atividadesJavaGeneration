@@ -7,17 +7,19 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Meu Perfil</title>
 </head>
 
 <body>
     <!-- Cabeçalho da Página (header) -->
-    <header>
+    <header class="flex">
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex_between">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
-                <!-- Seu nome -->
+                <!-- Meu nome -->
                 <h1>Matheus Queiroz</h1>
             </div>
 
@@ -43,16 +45,16 @@
     <main>
 
         <!-- Seção Sobre você -->
-        <section id="about">
+        <section id="about" class="flex">
 
             <!-- Título da Seção -->
             <h2>Sobre mim! </h2>
 
             <!-- Conteúdo da Seção -->
-            <div id="conteudo">
+            <div id="conteudo" class="flex_start">
 
                 <!-- Imagem do criador do conteúdo -->
-                <img src="./assets/img/Desenvolvedor1.jpg" alt="Foto do criador desse conteudo" height="250px" />
+                <img src="./assets/img/Desenvolvedor1.jpg" alt="Foto do criador desse conteudo" class="img_profile" />
 
                 <!-- Texto sobre o criador do conteúdo -->
                 <article id="sobre_texto">
@@ -83,34 +85,33 @@
         </section>
 
         <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
-
+        <section id="video" class="">
+            <hr>
             <!-- Título da Seção -->
-            <h2>Meu vídeo favorito:</h2>
+            <h2 class="flex">Meu vídeo favorito:</h2>
 
             <!-- Vídeo da Seção -->
-            <div class="youtube">
+            <div class="youtube flex">
                 <iframe width="241" height="429" src="https://www.youtube.com/embed/dWnVUIeMcoI" title="brain freeze"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-
+            <br>
         </section>
 
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
 
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
-
             <a href="https://www.linkedin.com/in/matheus-queiroz/">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon" />
             </a>
             <a href="https://github.com/MatheusSPQ">
-                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/github.svg" alt="Github" class="social_icon" />
             </a>
 
         </section>

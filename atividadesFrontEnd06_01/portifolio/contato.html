@@ -7,14 +7,17 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Perfil</title>
+
+
 </head>
 
 <body>
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex_between">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
                 <!-- Meu nome -->
@@ -43,7 +46,7 @@
     <main>
 
         <!-- Seção Formulário de Contato e Redes Sociais -->
-        <section id="contact">
+        <section id="contact" class="flex_between">
 
             <!-- Seção do Formulário-->
             <form action="#" method="submit" id="formulario">
@@ -66,6 +69,8 @@
                 <button type="submit">Enviar</button>
             </form>
 
+            <div class="vertical_rule"></div>
+
             <!-- Seção do Google Maps -->
             <article id="mapa">
 
@@ -83,16 +88,16 @@
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
 
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
 
             <a href="https://www.linkedin.com/in/matheus-queiroz/">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon" />
             </a>
             <a href="https://github.com/MatheusSPQ">
-                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/github.svg" alt="Github" class="social_icon" />
             </a>
 
         </section>
